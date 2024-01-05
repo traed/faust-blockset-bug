@@ -2,12 +2,12 @@ import { useBlocksTheme } from "@faustwp/blocks";
 
 export default function MyFirstBlock(props) {
     // This does not work
-    const theme = useBlocksTheme();
-    const style = getStyles(theme, Object.assign({}, props));
-    const { attributes} = props;
+    // const theme = useBlocksTheme();
+    // const style = getStyles(theme, Object.assign({}, props));
+    // const { attributes} = props;
 
     // This does work
-    // const { style, attributes} = props;
+    const { style, attributes} = props;
 
     const styles = {
       ...style,
