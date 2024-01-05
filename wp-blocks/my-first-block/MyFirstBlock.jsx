@@ -1,4 +1,4 @@
-import { useBlocksTheme } from "@faustwp/blocks";
+// import { useBlocksTheme } from "@faustwp/blocks";
 
 export default function MyFirstBlock(props) {
     // This does not work
