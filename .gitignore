@@ -15,7 +15,7 @@
 
 # production
 /build
-.faust
+/.faust/
 possibleTypes.json
 globalStylesheet.css
 
