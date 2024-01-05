@@ -9,7 +9,8 @@
     "build": "faust build",
     "generate": "faust generatePossibleTypes",
     "stylesheet": "faust generateGlobalStylesheet",
-    "start": "faust start"
+    "start": "faust start",
+    "blockset": "faust blockset"
   },
   "dependencies": {
     "@apollo/client": "^3.6.6",
@@ -29,5 +30,9 @@
   "engines": {
     "node": ">=16",
     "npm": ">=8"
+  },
+  "devDependencies": {
+    "@faustwp/block-editor-utils": "^0.0.5",
+    "@wordpress/scripts": "^26.19.0"
   }
 }
